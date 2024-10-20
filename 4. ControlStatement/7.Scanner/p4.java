@@ -2,15 +2,15 @@ import java.util.*;
 
 class Demo{
 	public static void main(String [] args){
-		Scanner SC = new.Scanner(System.in );
+		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter Number");
-		int a=SC.nextInt( );
+		int a=sc.nextInt();
 		System.out.println("Enter name");
-		String name = SC.next( );
+		String name = sc.next();
 		System.out.println("Enter float");
-		float fvalue = SC.nextFloat( );
+		float fvalue = sc.nextFloat();
 		System.out.println("Enter Double");
-		double dvalue = SC.nextDouble( );
+		double dvalue = sc.nextDouble();
 
 		System.out.println("number is: "+a);	
 		System.out.println("name is: "+name);	
@@ -18,3 +18,19 @@ class Demo{
 		System.out.println("dvalue is: "+dvalue);			
 	}
 }
+
+
+/*OUTPUT:-
+
+Enter Number
+2
+Enter name
+Vaishnavi
+Enter float
+2.5
+Enter Double
+2
+number is: 2
+name is: Vaishnavi
+fvalue is: 2.5
+dvalue is: 2.0                                         */

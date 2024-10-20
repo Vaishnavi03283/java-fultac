@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Demo{
 	public static void main(String [] args){
 		Scanner sc = new Scanner(System.in);
@@ -16,10 +18,21 @@ class Demo{
 class Codex{
 
 	void add(int a , int b){
-		System.out.println("Addition is: "(a+b));
+		System.out.println("Addition is: "+(a+b));
 	}
 
 	void sub(int a , int b){
-		System.out.println("sub is: "(a-b));
+		System.out.println("sub is: "+(a-b));
 	}
 }
+
+
+
+/*OUTPUT:-
+Enter 1st number
+20
+Enter 2nd number
+30
+Addition is: 50
+sub is: -10
+*/

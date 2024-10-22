@@ -1,12 +1,9 @@
 class Demo{
 	public static void main(String [] args){
-		String name = "viraj koli";
-
+		StringBuffer name = new StringBuffer("vaishnavi");
 		System.out.println(name);
-	}	
+	}
 }
 
 
-
-
-//OUTPUT:-  viraj koli
+/*OUTPUT:-   vaishnavi					*/

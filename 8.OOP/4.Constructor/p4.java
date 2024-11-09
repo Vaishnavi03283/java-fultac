@@ -8,3 +8,14 @@ class Demo{
 class Codex{
 	
 }
+
+
+/*byte code - (Codex)
+
+class Codex{
+	Codex(){               // Default Constructor
+               
+	}
+}
+
+*/

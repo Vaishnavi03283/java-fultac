@@ -1,4 +1,4 @@
-//parameterized Constructor is useful to initialiized each object with different data
+//parameterized Constructor is useful to Initialiized Each Object with Different Data
 
 
 class Person{

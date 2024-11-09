@@ -1,4 +1,4 @@
-//Default Constructor is usefult to initiallized all object with same data
+//Default Constructor is usefult to Initiallized all object with Same Data
 
 class Person{
 	int age;

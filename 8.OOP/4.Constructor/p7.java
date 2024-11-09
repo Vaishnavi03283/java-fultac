@@ -8,3 +8,19 @@ class Demo{
 		Codex obj = new Codex();
 	}
 }
+
+/*
+
+byte code -
+
+class Codex{
+	int a ;
+	
+	Codex(){
+
+	}
+}
+
+
+
+*/

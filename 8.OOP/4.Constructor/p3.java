@@ -14,6 +14,7 @@ class Codex{
 
 
 
+
 //OUTPUT:-  hello
 
 
@@ -21,7 +22,7 @@ class Codex{
 
 /*Constructor :- 
 
-- 3rd method pf initiallization of instance variable using Constructor.
+- 3rd method of Initiallization of Instance Variable using Constructor.
 - class name & Constructor name is same.
 - Does not have Return Type.
 - Automatically Called & Executed at time of creation of object.

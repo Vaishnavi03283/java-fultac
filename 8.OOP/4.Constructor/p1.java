@@ -16,3 +16,15 @@ class Codex{
 
 
 //OUTPUT:- hello
+
+
+//byte code -(Codex)
+
+class Codex{
+	Codex(){           // Default Constructor
+
+	}
+	void Codex(){
+
+	}
+}

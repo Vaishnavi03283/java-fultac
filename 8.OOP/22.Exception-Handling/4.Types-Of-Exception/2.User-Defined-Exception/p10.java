@@ -5,7 +5,9 @@ import java.io.*;
 
 class MyException extends Exception{
 	
-	
+	MyException(String str){
+		super(str);
+	}	
 }
 
 class AgeChecker{
@@ -22,25 +24,17 @@ class AgeChecker{
 class Demo{
 	public static void main(String[]args)throws MyException{
 		AgeChecker obj = new AgeChecker();
-		try{
-			obj.check();
-		}catch(MyException e){
-			System.out.println("Own EXception Catch");
-			e.printStackTrace();
-		}
+		obj.check();
 	}
 
 }
 
 
-/*error: constructor MyException in class MyException cannot be applied to given types;
-                        throw new MyException("age is not eligible, age is "+age);
-                              ^
-  required: no arguments
-  found:    String
-  reason: actual and formal argument lists differ in length
+/*error: run time error
 
-
+Exception in thread "main" MyException: age is not eligible, age is 16
+        at AgeChecker.check(p10.java:18)
+        at Demo.main(p10.java:27)
 
 
 */

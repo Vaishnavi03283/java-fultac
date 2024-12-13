@@ -10,7 +10,7 @@ class MyException extends Exception{
 
 class AgeChecker{
 
-	void check()throws MyException{
+	void check(){
 		throw new MyException();
 	}
 }
@@ -23,12 +23,11 @@ class Demo{
 }
 
 
-/*(compile-time-error)
+/*(Run-time-error)
 
-Exception in thread "main" MyException
-        at AgeChecker.check(p8.java:14)
-        at Demo.main(p8.java:20)
-
+ error: unreported exception MyException; must be caught or declared to be thrown
+                throw new MyException();
+                ^
 
 
 

@@ -12,10 +12,11 @@ class AgeChecker{
 
 	void check()throws MyException{
 		
+		throw new MyException();
 	}
 }
 class Demo{
-	public static void main(String[]args){
+	public static void main(String[]args)throws MyException{
 		AgeChecker obj = new AgeChecker();
 		obj.check();
 	}
@@ -23,14 +24,11 @@ class Demo{
 }
 
 
-/*(compile-time-error)
+/*(Run-time-error)
 
-error: unreported exception MyException; must be caught or declared to be thrown
-                obj.check();
-                         ^
-
-
-
+Exception in thread "main" MyException
+        at AgeChecker.check(p7.java:15)
+        at Demo.main(p7.java:21)
 
 
 
